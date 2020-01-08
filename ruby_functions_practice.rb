@@ -18,8 +18,8 @@ def divide(number_1, number_2)
   return number_1 / number_2
 end
 
-def length_of_string(length)
-  return length.slice(-2, 2).to_i()
+def length_of_string(length_string)
+  return length_string.length
 end
 
 def join_string(string_1, string_2)
